@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|d:\\rodrigo\\programacion\\wep api\\biblioteca\\biblioteca\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|d:\\rodrigo\\programacion\\wep api\\biblioteca\\biblioteca\\services\\autoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\services\\autoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +15,28 @@
       "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|d:\\rodrigo\\programacion\\wep api\\biblioteca\\biblioteca\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|d:\\rodrigo\\programacion\\wep api\\biblioteca\\biblioteca\\entities\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\entities\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|d:\\rodrigo\\programacion\\wep api\\biblioteca\\biblioteca\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|d:\\rodrigo\\programacion\\wep api\\biblioteca\\biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|d:\\rodrigo\\programacion\\wep api\\biblioteca\\biblioteca\\biblioteca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\biblioteca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|d:\\rodrigo\\programacion\\wep api\\biblioteca\\biblioteca\\data\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\data\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|d:\\rodrigo\\programacion\\wep api\\biblioteca\\biblioteca\\data\\bibliotecadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD803A8-3B83-4702-BD3C-3E47516C2286}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\data\\bibliotecadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,8 +45,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 246,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 185,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +70,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Entities\\Autor.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Entities\\Autor.cs",
+              "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Entities\\Autor.cs",
+              "RelativeToolTip": "Biblioteca\\Entities\\Autor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:24:02.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BibliotecaDbContext.cs",
+              "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Data\\BibliotecaDbContext.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Data\\BibliotecaDbContext.cs",
+              "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Data\\BibliotecaDbContext.cs",
+              "RelativeToolTip": "Biblioteca\\Data\\BibliotecaDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:20:57.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Entities\\Libro.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Entities\\Libro.cs",
+              "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Entities\\Libro.cs",
+              "RelativeToolTip": "Biblioteca\\Entities\\Libro.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA2wAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:19:01.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AutoresController.cs",
+              "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Controllers\\AutoresController.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Controllers\\AutoresController.cs",
+              "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Controllers\\AutoresController.cs",
+              "RelativeToolTip": "Biblioteca\\Controllers\\AutoresController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAwwDcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T11:13:53.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Program.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Program.cs",
               "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Program.cs",
               "RelativeToolTip": "Biblioteca\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T22:49:32.452Z",
               "EditorCaption": ""
@@ -64,45 +136,59 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AutoresController.cs",
-              "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Controllers\\AutoresController.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\Controllers\\AutoresController.cs",
-              "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Controllers\\AutoresController.cs",
-              "RelativeToolTip": "Biblioteca\\Controllers\\AutoresController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAIwF4AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T11:13:53.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AutoresService.cs",
               "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Services\\AutoresService.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Services\\AutoresService.cs",
               "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Services\\AutoresService.cs",
               "RelativeToolTip": "Biblioteca\\Services\\AutoresService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDAAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T11:05:28.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Biblioteca.csproj",
-              "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
-              "RelativeDocumentMoniker": "Biblioteca\\Biblioteca.csproj",
-              "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
-              "RelativeToolTip": "Biblioteca\\Biblioteca.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-14T11:04:56.31Z"
+              "DocumentIndex": 0,
+              "Title": "AutorDTO.cs",
+              "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\DTOs\\AutorDTO.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\DTOs\\AutorDTO.cs",
+              "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\DTOs\\AutorDTO.cs",
+              "RelativeToolTip": "Biblioteca\\DTOs\\AutorDTO.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAlwCMAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:22:04.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBInitializer.cs",
+              "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Data\\DBInitializer.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Data\\DBInitializer.cs",
+              "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Data\\DBInitializer.cs",
+              "RelativeToolTip": "Biblioteca\\Data\\DBInitializer.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T18:40:39.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Data\\Extensions.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Data\\Extensions.cs",
+              "ToolTip": "D:\\Rodrigo\\programacion\\Wep Api\\Biblioteca\\Biblioteca\\Data\\Extensions.cs",
+              "RelativeToolTip": "Biblioteca\\Data\\Extensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T20:19:23.115Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 306,
+          "DockedWidth": 341,
           "SelectedChildIndex": -1,
           "Children": [
             {

@@ -1,4 +1,6 @@
-using Biblioteca.Entities;
+using Biblioteca.Data;
+using Biblioteca.Services;
+using Biblioteca.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<BibliotecaDbContext>(
     options => options.UseSqlServer(
         builder.Configuration.GetConnectionString("BibliotecaConnectionString")));
+
+builder.Services.AddTransient<IAutoresService, AutoresService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -27,5 +31,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// inicializamos la db con datos si no contiene ninguno
+app.CreateDbIfNotExists();
 
 app.Run();

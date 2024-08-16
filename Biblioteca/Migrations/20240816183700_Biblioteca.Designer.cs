@@ -4,6 +4,7 @@ using Biblioteca.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Biblioteca.Migrations
 {
     [DbContext(typeof(BibliotecaDbContext))]
-    partial class BibliotecaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240816183700_Biblioteca")]
+    partial class Biblioteca
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -56,7 +59,7 @@ namespace Biblioteca.Migrations
 
                     b.HasKey("Codigo");
 
-                    b.ToTable("Generos");
+                    b.ToTable("Genero");
                 });
 
             modelBuilder.Entity("Biblioteca.Entities.Libro", b =>
@@ -92,13 +95,13 @@ namespace Biblioteca.Migrations
 
             modelBuilder.Entity("GeneroLibro", b =>
                 {
-                    b.Property<string>("GeneroCodigo")
+                    b.Property<string>("GenerosCodigo")
                         .HasColumnType("nvarchar(4)");
 
                     b.Property<int>("LibrosId")
                         .HasColumnType("int");
 
-                    b.HasKey("GeneroCodigo", "LibrosId");
+                    b.HasKey("GenerosCodigo", "LibrosId");
 
                     b.HasIndex("LibrosId");
 
@@ -108,7 +111,7 @@ namespace Biblioteca.Migrations
             modelBuilder.Entity("Biblioteca.Entities.Libro", b =>
                 {
                     b.HasOne("Biblioteca.Entities.Autor", "Autor")
-                        .WithMany("Libros")
+                        .WithMany("Libro")
                         .HasForeignKey("AutorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -120,7 +123,7 @@ namespace Biblioteca.Migrations
                 {
                     b.HasOne("Biblioteca.Entities.Genero", null)
                         .WithMany()
-                        .HasForeignKey("GeneroCodigo")
+                        .HasForeignKey("GenerosCodigo")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -133,7 +136,7 @@ namespace Biblioteca.Migrations
 
             modelBuilder.Entity("Biblioteca.Entities.Autor", b =>
                 {
-                    b.Navigation("Libros");
+                    b.Navigation("Libro");
                 });
 #pragma warning restore 612, 618
         }

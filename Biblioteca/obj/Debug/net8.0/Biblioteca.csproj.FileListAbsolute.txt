@@ -251,3 +251,4 @@ D:\Rodrigo\programacion\Wep Api\Biblioteca\Biblioteca\bin\Debug\net8.0\runtimes\
 D:\Rodrigo\programacion\Wep Api\Biblioteca\Biblioteca\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\Rodrigo\programacion\Wep Api\Biblioteca\Biblioteca\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Rodrigo\programacion\Wep Api\Biblioteca\Biblioteca\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\Rodrigo\programacion\Wep Api\Biblioteca\Biblioteca\obj\Debug\net8.0\Biblioteca.sourcelink.json

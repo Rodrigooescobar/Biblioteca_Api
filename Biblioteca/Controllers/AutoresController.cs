@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Biblioteca.Entities;
+using Biblioteca.Services.Interfaces;
+using Biblioteca.Exceptions;
+using Biblioteca.DTOs;
 
 // el controlador llama a un metodo para que me devuelva una info
 namespace Biblioteca.Controllers
@@ -14,25 +17,25 @@ namespace Biblioteca.Controllers
     [ApiController]
     public class AutoresController : ControllerBase
     {
-        private readonly BibliotecaDbContext _context;
+        private readonly IAutoresService service;
 
-        public AutoresController(BibliotecaDbContext context)
+        public AutoresController(IAutoresService service)
         {
-            _context = context;
+            this.service = service;
         }
 
         // GET: api/Autores
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Autor>>> GetAutores()
         {
-            return await _context.Autores.ToListAsync();
+            return await service.GetAutores();
         }
 
         // GET: api/Autores/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Autor>> GetOneAutor(int id)
         {
-            var autor = await _context.Autores.FindAsync(id);
+            var autor = await service.GetAutor(id);
 
             if (autor == null)
             {
@@ -45,65 +48,46 @@ namespace Biblioteca.Controllers
         // PUT: api/Autores/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAutor(int id, Autor autor)
+        public async Task<IActionResult> PutAutor(int id, AutorDTO autorToModify)
         {
-            if (id != autor.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(autor).State = EntityState.Modified;
-
             try
             {
-                await _context.SaveChangesAsync();
+                var autor = autorToModify.ToAutor();
+                autor.Id = id;
+                await service.UpdateAutor(id, autor);
             }
-            catch (DbUpdateConcurrencyException)
+            catch (AutorNotFoundException ex)
             {
-                if (!AutorExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return NotFound(ex.Message);
             }
 
             return NoContent();
         }
 
         // POST: api/Autores
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Autor>> PostAutor(Autor autor)
+        public async Task<ActionResult<Autor>> PostAutor(AutorDTO autor)
         {
-            _context.Autores.Add(autor);
-            await _context.SaveChangesAsync();
+            var createdAutor = await service.CreateAutor(autor.ToAutor());
 
             // como buena practica 
-            return CreatedAtAction(nameof(GetOneAutor), new { id = autor.Id }, autor);
+            return CreatedAtAction(nameof(GetOneAutor), new { id = createdAutor.Id }, createdAutor);
         }
 
         // DELETE: api/Autores/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAutor(int id)
         {
-            var autor = await _context.Autores.FindAsync(id);
-            if (autor == null)
+            try
+            {
+                await service.DeleteAutor(id);
+            }
+            catch (AutorNotFoundException ex)
             {
                 return NotFound();
             }
 
-            _context.Autores.Remove(autor);
-            await _context.SaveChangesAsync();
-
             return NoContent();
-        }
-
-        private bool AutorExists(int id)
-        {
-            return _context.Autores.Any(e => e.Id == id);
         }
     }
 }
